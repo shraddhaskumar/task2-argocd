@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def hello():
-    return "Hello from Flask + ArgoCD! Updated version!"
+    return "Hello from Flask + ArgoCD! Version 2!"
 
 
 if __name__ == '__main__':
